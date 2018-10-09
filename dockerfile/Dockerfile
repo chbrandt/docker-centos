@@ -1,4 +1,4 @@
-FROM chbrandt/centos:base
+FROM chbrandt/centos:6
 
 RUN yum -y groupinstall "Development Tools"   &&\
     yum -y install  ncurses-devel libXt-devel \
